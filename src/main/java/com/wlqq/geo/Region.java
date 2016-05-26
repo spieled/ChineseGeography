@@ -190,6 +190,30 @@ public class Region {
         return naturalGeoArea;
     }
 
+    public String getStandardName() {
+        return standardName;
+    }
+
+    public void setStandardName(String standardName) {
+        this.standardName = standardName;
+    }
+
+    public String getPinyinShorthandName() {
+        return pinyinShorthandName;
+    }
+
+    public void setPinyinShorthandName(String pinyinShorthandName) {
+        this.pinyinShorthandName = pinyinShorthandName;
+    }
+
+    public String getPinyinName() {
+        return pinyinName;
+    }
+
+    public void setPinyinName(String pinyinName) {
+        this.pinyinName = pinyinName;
+    }
+
     public void setNaturalGeoArea(String naturalGeoArea) {
         this.naturalGeoArea = naturalGeoArea;
     }
