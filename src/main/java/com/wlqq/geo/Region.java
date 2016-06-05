@@ -40,7 +40,7 @@ public class Region {
     /**
      * 行政区级别
      */
-    private Level level;
+    private int level;
     /**
      * 是否为首都、省会城市、市中心
      */
@@ -72,11 +72,11 @@ public class Region {
     /**
      * 行政区中心经度
      */
-    private String lng;
+    private String longitude;
     /**
      * 行政区中心纬度
      */
-    private String lat;
+    private String latitude;
     /**
      * 行政区中心经纬度HASH
      */
@@ -114,11 +114,11 @@ public class Region {
         this.alias = alias;
     }
 
-    public Level getLevel() {
+    public int getLevel() {
         return level;
     }
 
-    public void setLevel(Level level) {
+    public void setLevel(int level) {
         this.level = level;
     }
 
@@ -138,20 +138,20 @@ public class Region {
         this.zipCode = zipCode;
     }
 
-    public String getLng() {
-        return lng;
+    public String getLongitude() {
+        return longitude;
     }
 
-    public void setLng(String lng) {
-        this.lng = lng;
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
     }
 
-    public String getLat() {
-        return lat;
+    public String getLatitude() {
+        return latitude;
     }
 
-    public void setLat(String lat) {
-        this.lat = lat;
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
     }
 
     public String getGeoHash() {
